@@ -1,0 +1,85 @@
+#include<iostream>
+  using namespace std;
+   int main() 
+{ 
+    int num1, num2;
+    string function, answer;
+    cout << " What function would you like to use? (Addition +, Subtraction -, Division /, Multiplication *) \n";
+    cin >> function;
+    if (function == "-")    // subtraction block //
+    {
+    cout << "Enter first number";
+    cin >> num1;
+    cout << "Enter second number";
+    cin >> num2;
+    answer = num1 - num2;
+    cout << "The answer is " << answer << ". Goodbye.";    
+    }        
+    if (function == "Subtraction")    // subtraction block //
+    {
+    cout << "Enter first number";
+    cin >> num1;
+    cout << "Enter second number";
+    cin >> num2;
+    answer = num1 - num2;
+    cout << "The answer is " << answer << ". Goodbye.";    
+    }       
+    else if (function == "+")  // Addition Block //
+    {
+    cout << "Enter first number";
+    cin >> num1;
+    cout << "Enter second number";
+    cin >> num2;
+    answer = num1 + num2;
+    cout << "The answer is " << answer << ". Goodbye.";    
+    }      
+    else if (function == "Addition")  // Addition Block //
+    {
+    cout << "Enter first number";
+    cin >> num1;
+    cout << "Enter second number";
+    cin >> num2;
+    answer = num1 + num2;
+    cout << "The answer is " << answer << ". Goodbye.";    
+    }     
+    else if (function == "/")  // Division block//
+    {
+    cout << "Enter first number";
+    cin >> num1;
+    cout << "Enter second number";
+    cin >> num2;
+    answer = num1 / num2;
+    cout << "The answer is " << answer << ". Goodbye.";
+    } 
+    else if (function == "Division")  // Division block//
+    {
+    cout << "Enter first number";
+    cin >> num1;
+    cout << "Enter second number";
+    cin >> num2;
+    answer = num1 / num2;
+    cout << "The answer is " << answer << ". Goodbye.";
+    } 
+    else if (function == "*") // Multiplication block//
+    {
+        cout << "Enter first number";
+    cin >> num1;
+    cout << "Enter second number";
+    cin >> num2;
+    answer = num1 * num2;
+    cout << "The answer is " << answer << ". Goodbye.";
+    } 
+    else if (function == "Multiplication") // Multiplication block//
+    {
+        cout << "Enter first number";
+    cin >> num1;
+    cout << "Enter second number";
+    cin >> num2;
+    answer = num1 * num2;
+    cout << "The answer is " << answer << ". Goodbye.";
+    } 
+    else 
+    {
+    cout << "Invalid function";       // If no valid input was detected//
+    }
+}
